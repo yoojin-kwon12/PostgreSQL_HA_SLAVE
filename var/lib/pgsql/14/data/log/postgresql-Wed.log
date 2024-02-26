@@ -1,0 +1,27 @@
+2024-02-21 03:22:19.675 PST [2790] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-21 03:22:19.678 PST [2790] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-21 03:22:19.678 PST [2790] LOG:  listening on IPv6 address "::", port 5432
+2024-02-21 03:22:19.686 PST [2790] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-21 03:22:19.689 PST [2790] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-21 03:22:19.702 PST [2793] LOG:  database system was interrupted while in recovery at log time 2024-02-19 23:25:15 PST
+2024-02-21 03:22:19.702 PST [2793] HINT:  If this has occurred more than once some data might be corrupted and you might need to choose an earlier recovery target.
+2024-02-21 03:22:19.764 PST [2793] LOG:  entering standby mode
+2024-02-21 03:22:19.768 PST [2793] LOG:  redo starts at 0/E000758
+2024-02-21 03:22:19.768 PST [2793] LOG:  consistent recovery state reached at 0/E000840
+2024-02-21 03:22:19.768 PST [2793] LOG:  invalid record length at 0/E000840: wanted 24, got 0
+2024-02-21 03:22:19.771 PST [2790] LOG:  database system is ready to accept read-only connections
+2024-02-21 03:22:19.893 PST [2797] LOG:  started streaming WAL from primary at 0/E000000 on timeline 1
+2024-02-21 07:13:57.293 PST [2797] LOG:  replication terminated by primary server
+2024-02-21 07:13:57.293 PST [2797] DETAIL:  End of WAL reached on timeline 1 at 0/F0000A0.
+2024-02-21 07:13:57.300 PST [2797] FATAL:  could not send end-of-streaming message to primary: server closed the connection unexpectedly
+		This probably means the server terminated abnormally
+		before or while processing the request.
+	no COPY in progress
+2024-02-21 07:13:57.308 PST [2793] LOG:  invalid record length at 0/F0000A0: wanted 24, got 0
+2024-02-21 07:13:57.330 PST [5599] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-21 07:14:11.508 PST [2790] LOG:  received fast shutdown request
+2024-02-21 07:14:11.520 PST [2790] LOG:  aborting any active transactions
+2024-02-21 07:14:11.527 PST [5600] FATAL:  terminating walreceiver process due to administrator command
+2024-02-21 07:14:11.529 PST [2794] LOG:  shutting down
+2024-02-21 07:14:11.550 PST [2790] LOG:  database system is shut down

@@ -1,0 +1,48 @@
+2024-02-20 08:21:27.913 PST [52617] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-20 08:21:27.926 PST [52617] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-20 08:21:27.927 PST [52617] LOG:  listening on IPv6 address "::", port 5432
+2024-02-20 08:21:27.936 PST [52617] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-20 08:21:27.941 PST [52617] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-20 08:21:27.951 PST [52620] LOG:  database system was interrupted; last known up at 2024-02-19 23:20:15 PST
+2024-02-20 08:21:28.026 PST [52620] LOG:  entering standby mode
+2024-02-20 08:21:28.041 PST [52620] LOG:  redo starts at 0/D000028
+2024-02-20 08:21:28.055 PST [52620] LOG:  consistent recovery state reached at 0/D000100
+2024-02-20 08:21:28.057 PST [52617] LOG:  database system is ready to accept read-only connections
+2024-02-20 08:21:28.251 PST [52629] LOG:  started streaming WAL from primary at 0/E000000 on timeline 1
+2024-02-20 08:23:53.946 PST [52737] ERROR:  syntax error at or near "status" at character 1
+2024-02-20 08:23:53.946 PST [52737] STATEMENT:  status
+	;
+2024-02-20 08:32:24.101 PST [52617] LOG:  received fast shutdown request
+2024-02-20 08:32:24.106 PST [52617] LOG:  aborting any active transactions
+2024-02-20 08:32:24.121 PST [52629] FATAL:  terminating walreceiver process due to administrator command
+2024-02-20 08:32:24.144 PST [52626] LOG:  shutting down
+2024-02-20 08:32:24.157 PST [52617] LOG:  database system is shut down
+2024-02-20 08:32:24.381 PST [52910] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-20 08:32:24.383 PST [52910] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-20 08:32:24.383 PST [52910] LOG:  listening on IPv6 address "::", port 5432
+2024-02-20 08:32:24.387 PST [52910] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-20 08:32:24.392 PST [52910] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-20 08:32:24.404 PST [52913] LOG:  database system was shut down in recovery at 2024-02-20 08:32:24 PST
+2024-02-20 08:32:24.404 PST [52913] LOG:  entering standby mode
+2024-02-20 08:32:24.406 PST [52913] LOG:  redo starts at 0/E000758
+2024-02-20 08:32:24.406 PST [52913] LOG:  consistent recovery state reached at 0/E000840
+2024-02-20 08:32:24.409 PST [52913] LOG:  invalid record length at 0/E000840: wanted 24, got 0
+2024-02-20 08:32:24.411 PST [52910] LOG:  database system is ready to accept read-only connections
+2024-02-20 08:32:24.485 PST [52917] LOG:  started streaming WAL from primary at 0/E000000 on timeline 1
+2024-02-20 08:33:22.323 PST [52910] LOG:  received fast shutdown request
+2024-02-20 08:33:22.328 PST [52910] LOG:  aborting any active transactions
+2024-02-20 08:33:22.331 PST [52917] FATAL:  terminating walreceiver process due to administrator command
+2024-02-20 08:33:22.338 PST [52914] LOG:  shutting down
+2024-02-20 08:33:22.355 PST [52910] LOG:  database system is shut down
+2024-02-20 08:33:22.553 PST [53042] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-20 08:33:22.554 PST [53042] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-20 08:33:22.554 PST [53042] LOG:  listening on IPv6 address "::", port 5432
+2024-02-20 08:33:22.559 PST [53042] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-20 08:33:22.561 PST [53042] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-20 08:33:22.568 PST [53046] LOG:  database system was shut down in recovery at 2024-02-20 08:33:22 PST
+2024-02-20 08:33:22.568 PST [53046] LOG:  entering standby mode
+2024-02-20 08:33:22.570 PST [53046] LOG:  redo starts at 0/E000758
+2024-02-20 08:33:22.570 PST [53046] LOG:  consistent recovery state reached at 0/E000840
+2024-02-20 08:33:22.570 PST [53046] LOG:  invalid record length at 0/E000840: wanted 24, got 0
+2024-02-20 08:33:22.572 PST [53042] LOG:  database system is ready to accept read-only connections
+2024-02-20 08:33:22.653 PST [53050] LOG:  started streaming WAL from primary at 0/E000000 on timeline 1

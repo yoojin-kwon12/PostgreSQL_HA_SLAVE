@@ -1,0 +1,55 @@
+2024-02-18 02:32:27.202 PST [7659] LOG:  received fast shutdown request
+2024-02-18 02:32:27.212 PST [7659] LOG:  aborting any active transactions
+2024-02-18 02:32:27.226 PST [7659] LOG:  background worker "logical replication launcher" (PID 7669) exited with exit code 1
+2024-02-18 02:32:27.226 PST [7663] LOG:  shutting down
+2024-02-18 02:32:28.064 PST [7659] LOG:  database system is shut down
+2024-02-18 16:20:41.347 PST [2819] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-18 16:20:41.352 PST [2819] LOG:  listening on IPv6 address "::1", port 5432
+2024-02-18 16:20:41.352 PST [2819] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-02-18 16:20:41.353 PST [2819] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-18 16:20:41.354 PST [2819] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-18 16:20:41.362 PST [2825] LOG:  database system was shut down at 2024-02-18 02:32:28 PST
+2024-02-18 16:20:41.380 PST [2819] LOG:  database system is ready to accept connections
+2024-02-18 16:33:51.459 PST [2819] LOG:  received fast shutdown request
+2024-02-18 16:33:51.465 PST [2819] LOG:  aborting any active transactions
+2024-02-18 16:33:51.471 PST [2819] LOG:  background worker "logical replication launcher" (PID 2832) exited with exit code 1
+2024-02-18 16:33:51.471 PST [2826] LOG:  shutting down
+2024-02-18 16:33:51.556 PST [2819] LOG:  database system is shut down
+2024-02-18 16:33:51.657 PST [9504] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-18 16:33:51.658 PST [9504] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-18 16:33:51.658 PST [9504] LOG:  listening on IPv6 address "::", port 5432
+2024-02-18 16:33:51.667 PST [9504] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-18 16:33:51.679 PST [9504] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-18 16:33:51.685 PST [9508] LOG:  database system was shut down at 2024-02-18 16:33:51 PST
+2024-02-18 16:33:51.690 PST [9504] LOG:  database system is ready to accept connections
+2024-02-18 16:40:32.102 PST [9504] LOG:  received fast shutdown request
+2024-02-18 16:40:32.170 PST [9504] LOG:  aborting any active transactions
+2024-02-18 16:40:32.201 PST [9504] LOG:  background worker "logical replication launcher" (PID 9515) exited with exit code 1
+2024-02-18 16:40:32.201 PST [9509] LOG:  shutting down
+2024-02-18 16:40:32.601 PST [9504] LOG:  database system is shut down
+2024-02-18 19:28:12.433 PST [2670] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-18 19:28:12.434 PST [2670] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-18 19:28:12.434 PST [2670] LOG:  listening on IPv6 address "::", port 5432
+2024-02-18 19:28:12.437 PST [2670] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-18 19:28:12.439 PST [2670] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-18 19:28:12.446 PST [2673] LOG:  database system was shut down at 2024-02-18 16:40:32 PST
+2024-02-18 19:28:12.456 PST [2670] LOG:  database system is ready to accept connections
+2024-02-18 21:05:37.415 PST [4334] FATAL:  role "root" does not exist
+2024-02-18 21:05:48.693 PST [2670] LOG:  received fast shutdown request
+2024-02-18 21:05:48.697 PST [2670] LOG:  aborting any active transactions
+2024-02-18 21:05:48.716 PST [2670] LOG:  background worker "logical replication launcher" (PID 2680) exited with exit code 1
+2024-02-18 21:05:48.717 PST [2674] LOG:  shutting down
+2024-02-18 21:05:49.056 PST [2670] LOG:  database system is shut down
+2024-02-18 21:05:49.159 PST [4358] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-18 21:05:49.161 PST [4358] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-18 21:05:49.161 PST [4358] LOG:  listening on IPv6 address "::", port 5432
+2024-02-18 21:05:49.163 PST [4358] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-18 21:05:49.166 PST [4358] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-18 21:05:49.171 PST [4361] LOG:  database system was shut down at 2024-02-18 21:05:48 PST
+2024-02-18 21:05:49.177 PST [4358] LOG:  database system is ready to accept connections
+2024-02-18 21:05:51.365 PST [4381] FATAL:  role "root" does not exist
+2024-02-18 22:41:24.729 PST [4358] LOG:  received fast shutdown request
+2024-02-18 22:41:24.733 PST [4358] LOG:  aborting any active transactions
+2024-02-18 22:41:24.748 PST [4358] LOG:  background worker "logical replication launcher" (PID 4368) exited with exit code 1
+2024-02-18 22:41:24.749 PST [4362] LOG:  shutting down
+2024-02-18 22:41:26.214 PST [4358] LOG:  database system is shut down

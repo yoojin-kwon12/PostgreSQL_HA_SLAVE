@@ -1,0 +1,31 @@
+2024-02-19 16:00:49.438 PST [3126] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-19 16:00:49.440 PST [3126] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-19 16:00:49.440 PST [3126] LOG:  listening on IPv6 address "::", port 5432
+2024-02-19 16:00:49.446 PST [3126] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-19 16:00:49.454 PST [3126] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-19 16:00:49.481 PST [3133] LOG:  database system was shut down at 2024-02-18 22:41:25 PST
+2024-02-19 16:00:49.508 PST [3126] LOG:  database system is ready to accept connections
+2024-02-19 20:00:39.010 PST [3126] LOG:  received fast shutdown request
+2024-02-19 20:00:39.015 PST [3126] LOG:  aborting any active transactions
+2024-02-19 20:00:39.027 PST [3126] LOG:  background worker "logical replication launcher" (PID 3140) exited with exit code 1
+2024-02-19 20:00:39.027 PST [3134] LOG:  shutting down
+2024-02-19 20:00:39.375 PST [3126] LOG:  database system is shut down
+2024-02-19 20:00:39.509 PST [12834] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-19 20:00:39.510 PST [12834] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-19 20:00:39.511 PST [12834] LOG:  listening on IPv6 address "::", port 5432
+2024-02-19 20:00:39.515 PST [12834] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-19 20:00:39.516 PST [12834] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-19 20:00:39.521 PST [12837] LOG:  database system was shut down at 2024-02-19 20:00:39 PST
+2024-02-19 20:00:39.529 PST [12834] LOG:  database system is ready to accept connections
+2024-02-19 22:31:57.818 PST [12834] LOG:  received fast shutdown request
+2024-02-19 22:31:57.824 PST [12834] LOG:  aborting any active transactions
+2024-02-19 22:31:57.870 PST [12834] LOG:  background worker "logical replication launcher" (PID 12844) exited with exit code 1
+2024-02-19 22:31:57.870 PST [12838] LOG:  shutting down
+2024-02-19 22:31:59.371 PST [12834] LOG:  database system is shut down
+2024-02-19 23:13:08.679 PST [3147] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-19 23:13:08.687 PST [3147] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-19 23:13:08.687 PST [3147] LOG:  listening on IPv6 address "::", port 5432
+2024-02-19 23:13:08.692 PST [3147] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-19 23:13:08.694 PST [3147] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-19 23:13:08.709 PST [3150] LOG:  database system was shut down at 2024-02-19 22:31:59 PST
+2024-02-19 23:13:08.726 PST [3147] LOG:  database system is ready to accept connections
