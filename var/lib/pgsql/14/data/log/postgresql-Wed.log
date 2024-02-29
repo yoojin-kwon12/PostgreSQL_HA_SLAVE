@@ -1,27 +1,190 @@
-2024-02-21 03:22:19.675 PST [2790] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
-2024-02-21 03:22:19.678 PST [2790] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-2024-02-21 03:22:19.678 PST [2790] LOG:  listening on IPv6 address "::", port 5432
-2024-02-21 03:22:19.686 PST [2790] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
-2024-02-21 03:22:19.689 PST [2790] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
-2024-02-21 03:22:19.702 PST [2793] LOG:  database system was interrupted while in recovery at log time 2024-02-19 23:25:15 PST
-2024-02-21 03:22:19.702 PST [2793] HINT:  If this has occurred more than once some data might be corrupted and you might need to choose an earlier recovery target.
-2024-02-21 03:22:19.764 PST [2793] LOG:  entering standby mode
-2024-02-21 03:22:19.768 PST [2793] LOG:  redo starts at 0/E000758
-2024-02-21 03:22:19.768 PST [2793] LOG:  consistent recovery state reached at 0/E000840
-2024-02-21 03:22:19.768 PST [2793] LOG:  invalid record length at 0/E000840: wanted 24, got 0
-2024-02-21 03:22:19.771 PST [2790] LOG:  database system is ready to accept read-only connections
-2024-02-21 03:22:19.893 PST [2797] LOG:  started streaming WAL from primary at 0/E000000 on timeline 1
-2024-02-21 07:13:57.293 PST [2797] LOG:  replication terminated by primary server
-2024-02-21 07:13:57.293 PST [2797] DETAIL:  End of WAL reached on timeline 1 at 0/F0000A0.
-2024-02-21 07:13:57.300 PST [2797] FATAL:  could not send end-of-streaming message to primary: server closed the connection unexpectedly
+2024-02-28 18:15:26.032 PST [61378] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-28 18:15:26.034 PST [61378] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-28 18:15:26.034 PST [61378] LOG:  listening on IPv6 address "::", port 5432
+2024-02-28 18:15:26.040 PST [61378] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-28 18:15:26.042 PST [61378] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-28 18:15:26.052 PST [61381] LOG:  database system was interrupted; last known up at 2024-02-28 18:14:12 PST
+2024-02-28 18:15:26.063 PST [61381] LOG:  entering standby mode
+2024-02-28 18:15:26.065 PST [61381] LOG:  redo starts at 0/3C000060
+2024-02-28 18:15:26.067 PST [61381] LOG:  consistent recovery state reached at 0/3C000138
+2024-02-28 18:15:26.068 PST [61378] LOG:  database system is ready to accept read-only connections
+2024-02-28 18:15:26.138 PST [61385] LOG:  started streaming WAL from primary at 0/3D000000 on timeline 4
+2024-02-28 21:11:43.810 PST [61385] FATAL:  could not receive data from WAL stream: ERROR:  requested WAL segment 00000004000000000000003D has already been removed
+2024-02-28 21:11:43.824 PST [61381] LOG:  unexpected pageaddr 0/3C000000 in log segment 00000004000000000000003E, offset 0
+2024-02-28 21:11:43.830 PST [68854] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:11:48.827 PST [68855] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:11:53.826 PST [68871] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:11:58.829 PST [68872] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:12:03.833 PST [68879] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:12:08.839 PST [68881] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:12:13.847 PST [68882] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:12:18.848 PST [68883] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:12:23.852 PST [68884] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:12:28.859 PST [68893] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:12:33.862 PST [68894] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:12:35.686 PST [61381] LOG:  received promote request
+2024-02-28 21:12:35.687 PST [61381] LOG:  redo done at 0/3D0027A8 system usage: CPU: user: 0.06 s, system: 0.08 s, elapsed: 10629.62 s
+2024-02-28 21:12:35.687 PST [61381] LOG:  last completed transaction was at log time 2024-02-28 18:15:44.700065-08
+2024-02-28 21:12:35.688 PST [61381] LOG:  selected new timeline ID: 5
+2024-02-28 21:12:35.777 PST [61381] LOG:  archive recovery complete
+2024-02-28 21:12:35.786 PST [61378] LOG:  database system is ready to accept connections
+2024-02-28 21:40:04.150 PST [75854] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-28 21:40:04.152 PST [75854] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-28 21:40:04.152 PST [75854] LOG:  listening on IPv6 address "::", port 5432
+2024-02-28 21:40:04.155 PST [75854] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-28 21:40:04.156 PST [75854] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-28 21:40:04.160 PST [75857] LOG:  database system was interrupted; last known up at 2024-02-28 21:39:44 PST
+2024-02-28 21:40:04.169 PST [75857] LOG:  entering standby mode
+2024-02-28 21:40:04.171 PST [75857] LOG:  redo starts at 0/3F000060
+2024-02-28 21:40:04.173 PST [75857] LOG:  consistent recovery state reached at 0/3F000138
+2024-02-28 21:40:04.174 PST [75854] LOG:  database system is ready to accept read-only connections
+2024-02-28 21:40:04.242 PST [75861] LOG:  started streaming WAL from primary at 0/40000000 on timeline 5
+2024-02-28 21:41:09.874 PST [75861] FATAL:  could not receive data from WAL stream: ERROR:  requested WAL segment 000000050000000000000040 has already been removed
+2024-02-28 21:41:09.883 PST [75996] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:14.887 PST [75997] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:19.890 PST [75998] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:24.897 PST [75999] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:29.901 PST [76000] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:34.908 PST [76001] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:39.911 PST [76002] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:44.924 PST [76006] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:49.920 PST [76008] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:54.930 PST [76009] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:41:59.929 PST [76010] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 21:42:01.343 PST [75857] LOG:  received promote request
+2024-02-28 21:42:01.343 PST [75857] LOG:  redo done at 0/40002D40 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 117.17 s
+2024-02-28 21:42:01.343 PST [75857] LOG:  last completed transaction was at log time 2024-02-28 21:40:37.481176-08
+2024-02-28 21:42:01.344 PST [75857] LOG:  selected new timeline ID: 6
+2024-02-28 21:42:01.395 PST [75857] LOG:  archive recovery complete
+2024-02-28 21:42:01.404 PST [75854] LOG:  database system is ready to accept connections
+2024-02-28 21:42:20.513 PST [70450] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-28 21:42:20.515 PST [70450] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-28 21:42:20.515 PST [70450] LOG:  listening on IPv6 address "::", port 5432
+2024-02-28 21:42:20.519 PST [70450] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-28 21:42:20.521 PST [70450] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-28 21:42:20.525 PST [70453] LOG:  database system was interrupted; last known up at 2024-02-28 21:42:19 PST
+2024-02-28 21:42:20.534 PST [70453] LOG:  entering standby mode
+2024-02-28 21:42:20.536 PST [70453] LOG:  redo starts at 0/42000028
+2024-02-28 21:42:20.539 PST [70453] LOG:  consistent recovery state reached at 0/42000100
+2024-02-28 21:42:20.541 PST [70450] LOG:  database system is ready to accept read-only connections
+2024-02-28 21:42:20.566 PST [70457] LOG:  started streaming WAL from primary at 0/43000000 on timeline 6
+2024-02-28 21:43:24.294 PST [70450] LOG:  received fast shutdown request
+2024-02-28 21:43:24.302 PST [70450] LOG:  aborting any active transactions
+2024-02-28 21:43:24.302 PST [70462] FATAL:  terminating connection due to administrator command
+2024-02-28 21:43:24.309 PST [70457] FATAL:  terminating walreceiver process due to administrator command
+2024-02-28 21:43:24.316 PST [70454] LOG:  shutting down
+2024-02-28 21:43:24.328 PST [70450] LOG:  database system is shut down
+2024-02-28 21:44:20.210 PST [70714] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-28 21:44:20.217 PST [70714] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-28 21:44:20.217 PST [70714] LOG:  listening on IPv6 address "::", port 5432
+2024-02-28 21:44:20.219 PST [70714] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-28 21:44:20.221 PST [70714] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-28 21:44:20.225 PST [70718] LOG:  database system was shut down in recovery at 2024-02-28 21:43:24 PST
+2024-02-28 21:44:20.225 PST [70718] LOG:  entering standby mode
+2024-02-28 21:44:20.226 PST [70718] LOG:  redo starts at 0/42000028
+2024-02-28 21:44:20.226 PST [70718] LOG:  consistent recovery state reached at 0/43003478
+2024-02-28 21:44:20.226 PST [70718] LOG:  invalid record length at 0/43003478: wanted 24, got 0
+2024-02-28 21:44:20.228 PST [70714] LOG:  database system is ready to accept read-only connections
+2024-02-28 21:44:20.280 PST [70722] LOG:  started streaming WAL from primary at 0/43000000 on timeline 6
+2024-02-28 22:01:52.560 PST [70722] FATAL:  could not receive data from WAL stream: ERROR:  requested WAL segment 000000060000000000000043 has already been removed
+2024-02-28 22:01:52.564 PST [70718] LOG:  unexpected pageaddr 0/42000000 in log segment 000000060000000000000044, offset 0
+2024-02-28 22:01:52.571 PST [71591] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:01:57.574 PST [71593] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:02.582 PST [71594] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:07.584 PST [71595] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:12.587 PST [71596] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:17.593 PST [71597] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:22.595 PST [71598] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:27.602 PST [71599] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:32.604 PST [71608] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:37.611 PST [71609] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:42.611 PST [71610] FATAL:  could not connect to the primary server: connection to server at "192.168.176.177", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:02:43.754 PST [70718] LOG:  received promote request
+2024-02-28 22:02:43.755 PST [70718] LOG:  redo done at 0/43005A18 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 1103.52 s
+2024-02-28 22:02:43.755 PST [70718] LOG:  last completed transaction was at log time 2024-02-28 21:44:23.210775-08
+2024-02-28 22:02:43.756 PST [70718] LOG:  selected new timeline ID: 7
+2024-02-28 22:02:43.815 PST [70718] LOG:  archive recovery complete
+2024-02-28 22:02:43.838 PST [70714] LOG:  database system is ready to accept connections
+2024-02-28 22:03:03.077 PST [77635] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-28 22:03:03.079 PST [77635] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-28 22:03:03.079 PST [77635] LOG:  listening on IPv6 address "::", port 5432
+2024-02-28 22:03:03.086 PST [77635] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-28 22:03:03.088 PST [77635] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-28 22:03:03.093 PST [77638] LOG:  database system was interrupted; last known up at 2024-02-28 22:03:01 PST
+2024-02-28 22:03:03.108 PST [77638] LOG:  entering standby mode
+2024-02-28 22:03:03.111 PST [77638] LOG:  redo starts at 0/45000028
+2024-02-28 22:03:03.113 PST [77638] LOG:  consistent recovery state reached at 0/45000100
+2024-02-28 22:03:03.114 PST [77635] LOG:  database system is ready to accept read-only connections
+2024-02-28 22:03:03.140 PST [77642] LOG:  started streaming WAL from primary at 0/46000000 on timeline 7
+2024-02-28 22:05:51.454 PST [77642] LOG:  replication terminated by primary server
+2024-02-28 22:05:51.454 PST [77642] DETAIL:  End of WAL reached on timeline 7 at 0/470000A0.
+2024-02-28 22:05:51.455 PST [77642] FATAL:  could not send end-of-streaming message to primary: server closed the connection unexpectedly
 		This probably means the server terminated abnormally
 		before or while processing the request.
 	no COPY in progress
-2024-02-21 07:13:57.308 PST [2793] LOG:  invalid record length at 0/F0000A0: wanted 24, got 0
-2024-02-21 07:13:57.330 PST [5599] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+2024-02-28 22:05:51.457 PST [77638] LOG:  invalid record length at 0/470000A0: wanted 24, got 0
+2024-02-28 22:05:51.467 PST [77933] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
 		Is the server running on that host and accepting TCP/IP connections?
-2024-02-21 07:14:11.508 PST [2790] LOG:  received fast shutdown request
-2024-02-21 07:14:11.520 PST [2790] LOG:  aborting any active transactions
-2024-02-21 07:14:11.527 PST [5600] FATAL:  terminating walreceiver process due to administrator command
-2024-02-21 07:14:11.529 PST [2794] LOG:  shutting down
-2024-02-21 07:14:11.550 PST [2790] LOG:  database system is shut down
+2024-02-28 22:05:56.469 PST [77935] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:06:01.471 PST [77936] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:06:06.477 PST [77937] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:06:11.481 PST [77946] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:06:16.484 PST [77947] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:06:21.488 PST [77948] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:06:26.491 PST [77949] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:06:31.495 PST [77950] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:06:36.500 PST [77951] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-28 22:06:41.469 PST [77638] LOG:  received promote request
+2024-02-28 22:06:41.469 PST [77638] LOG:  redo done at 0/47000028 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 218.35 s
+2024-02-28 22:06:41.469 PST [77638] LOG:  last completed transaction was at log time 2024-02-28 22:03:05.135862-08
+2024-02-28 22:06:41.470 PST [77638] LOG:  selected new timeline ID: 8
+2024-02-28 22:06:41.576 PST [77638] LOG:  archive recovery complete
+2024-02-28 22:06:41.583 PST [77635] LOG:  database system is ready to accept connections
+2024-02-28 23:41:31.242 PST [77635] LOG:  received fast shutdown request
+2024-02-28 23:41:31.246 PST [77635] LOG:  aborting any active transactions
+2024-02-28 23:41:31.248 PST [77647] FATAL:  terminating connection due to administrator command
+2024-02-28 23:41:31.261 PST [77635] LOG:  background worker "logical replication launcher" (PID 77959) exited with exit code 1
+2024-02-28 23:41:31.261 PST [77639] LOG:  shutting down
+2024-02-28 23:41:31.422 PST [77635] LOG:  database system is shut down

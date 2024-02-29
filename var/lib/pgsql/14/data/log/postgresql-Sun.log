@@ -53,3 +53,94 @@
 2024-02-18 22:41:24.748 PST [4358] LOG:  background worker "logical replication launcher" (PID 4368) exited with exit code 1
 2024-02-18 22:41:24.749 PST [4362] LOG:  shutting down
 2024-02-18 22:41:26.214 PST [4358] LOG:  database system is shut down
+2024-02-25 22:39:44.496 PST [61440] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-25 22:39:44.504 PST [61440] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-25 22:39:44.504 PST [61440] LOG:  listening on IPv6 address "::", port 5432
+2024-02-25 22:39:44.510 PST [61440] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-25 22:39:44.513 PST [61440] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-25 22:39:44.530 PST [61443] LOG:  database system was shut down at 2024-02-21 23:30:33 PST
+2024-02-25 22:39:44.565 PST [61440] LOG:  database system is ready to accept connections
+2024-02-25 22:42:00.712 PST [61440] LOG:  received fast shutdown request
+2024-02-25 22:42:00.717 PST [61440] LOG:  aborting any active transactions
+2024-02-25 22:42:00.717 PST [61490] FATAL:  terminating connection due to administrator command
+2024-02-25 22:42:00.727 PST [61440] LOG:  background worker "logical replication launcher" (PID 61450) exited with exit code 1
+2024-02-25 22:42:00.727 PST [61444] LOG:  shutting down
+2024-02-25 22:42:00.904 PST [61440] LOG:  database system is shut down
+2024-02-25 22:42:30.493 PST [61662] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-25 22:42:30.494 PST [61662] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-25 22:42:30.494 PST [61662] LOG:  listening on IPv6 address "::", port 5432
+2024-02-25 22:42:30.499 PST [61662] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-25 22:42:30.500 PST [61662] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-25 22:42:30.505 PST [61665] LOG:  database system was shut down at 2024-02-25 22:42:00 PST
+2024-02-25 22:42:30.511 PST [61662] LOG:  database system is ready to accept connections
+2024-02-25 22:50:41.943 PST [61662] LOG:  received fast shutdown request
+2024-02-25 22:50:41.945 PST [61662] LOG:  aborting any active transactions
+2024-02-25 22:50:41.945 PST [61684] FATAL:  terminating connection due to administrator command
+2024-02-25 22:50:41.954 PST [61662] LOG:  background worker "logical replication launcher" (PID 61672) exited with exit code 1
+2024-02-25 22:50:41.954 PST [61666] LOG:  shutting down
+2024-02-25 22:50:42.088 PST [62137] FATAL:  the database system is shutting down
+2024-02-25 22:50:42.097 PST [62139] FATAL:  the database system is shutting down
+2024-02-25 22:50:42.133 PST [62140] FATAL:  the database system is shutting down
+2024-02-25 22:50:42.140 PST [61662] LOG:  database system is shut down
+2024-02-25 22:51:18.888 PST [62185] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-25 22:51:18.890 PST [62185] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-25 22:51:18.890 PST [62185] LOG:  listening on IPv6 address "::", port 5432
+2024-02-25 22:51:18.894 PST [62185] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-25 22:51:18.896 PST [62185] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-25 22:51:18.900 PST [62188] LOG:  database system was shut down at 2024-02-25 22:50:42 PST
+2024-02-25 22:51:18.905 PST [62185] LOG:  database system is ready to accept connections
+2024-02-25 23:52:46.004 PST [62185] LOG:  received fast shutdown request
+2024-02-25 23:52:46.007 PST [62185] LOG:  aborting any active transactions
+2024-02-25 23:52:46.007 PST [62208] FATAL:  terminating connection due to administrator command
+2024-02-25 23:52:46.021 PST [62185] LOG:  background worker "logical replication launcher" (PID 62195) exited with exit code 1
+2024-02-25 23:52:46.022 PST [62189] LOG:  shutting down
+2024-02-25 23:52:46.193 PST [62185] LOG:  database system is shut down
+2024-02-25 23:52:46.283 PST [64987] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-25 23:52:46.285 PST [64987] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-25 23:52:46.285 PST [64987] LOG:  listening on IPv6 address "::", port 5432
+2024-02-25 23:52:46.289 PST [64987] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-25 23:52:46.291 PST [64987] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-25 23:52:46.295 PST [64990] LOG:  database system was shut down at 2024-02-25 23:52:46 PST
+2024-02-25 23:52:46.300 PST [64987] LOG:  database system is ready to accept connections
+2024-02-25 23:55:21.804 PST [15180] LOG:  starting PostgreSQL 14.11 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2024-02-25 23:55:21.806 PST [15180] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-02-25 23:55:21.806 PST [15180] LOG:  listening on IPv6 address "::", port 5432
+2024-02-25 23:55:21.813 PST [15180] LOG:  listening on Unix socket "/run/postgresql/.s.PGSQL.5432"
+2024-02-25 23:55:21.816 PST [15180] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-25 23:55:21.821 PST [15182] LOG:  database system was interrupted; last known up at 2024-02-25 23:55:01 PST
+2024-02-25 23:55:21.829 PST [15182] LOG:  entering standby mode
+2024-02-25 23:55:21.830 PST [15182] LOG:  redo starts at 0/26000060
+2024-02-25 23:55:21.832 PST [15182] LOG:  consistent recovery state reached at 0/26000138
+2024-02-25 23:55:21.832 PST [15180] LOG:  database system is ready to accept read-only connections
+2024-02-25 23:55:21.895 PST [15186] LOG:  started streaming WAL from primary at 0/27000000 on timeline 1
+2024-02-25 23:59:00.728 PST [15186] FATAL:  could not receive data from WAL stream: ERROR:  requested WAL segment 000000010000000000000027 has already been removed
+2024-02-25 23:59:00.741 PST [15430] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: server closed the connection unexpectedly
+		This probably means the server terminated abnormally
+		before or while processing the request.
+	could not send SSL negotiation packet: Success
+2024-02-25 23:59:05.740 PST [15431] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:10.747 PST [15436] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:15.750 PST [15440] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:20.763 PST [15447] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:25.759 PST [15448] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:30.765 PST [15449] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:35.769 PST [15450] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:40.774 PST [15451] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:45.777 PST [15452] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:50.796 PST [15458] FATAL:  could not connect to the primary server: connection to server at "192.168.176.175", port 5432 failed: Connection refused
+		Is the server running on that host and accepting TCP/IP connections?
+2024-02-25 23:59:51.670 PST [15182] LOG:  received promote request
+2024-02-25 23:59:51.670 PST [15182] LOG:  redo done at 0/270047B8 system usage: CPU: user: 0.00 s, system: 0.01 s, elapsed: 269.83 s
+2024-02-25 23:59:51.670 PST [15182] LOG:  last completed transaction was at log time 2024-02-25 23:58:55.435886-08
+2024-02-25 23:59:51.672 PST [15182] LOG:  selected new timeline ID: 2
+2024-02-25 23:59:51.749 PST [15182] LOG:  archive recovery complete
+2024-02-25 23:59:51.764 PST [15180] LOG:  database system is ready to accept connections
